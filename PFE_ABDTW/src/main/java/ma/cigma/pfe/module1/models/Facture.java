@@ -37,5 +37,4 @@ public class Facture {
 	public void setMontant(double montant) {
 		this.montant = montant;
 	}
-
 }
