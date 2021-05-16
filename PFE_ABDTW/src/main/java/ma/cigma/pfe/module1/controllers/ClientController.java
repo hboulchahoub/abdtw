@@ -20,6 +20,7 @@ import ma.cigma.pfe.module1.services.IClientService;
 @RequestMapping("/clients")
 public class ClientController {
 	@Autowired
+	
 	private IClientService clientService;
 	
 	@PostMapping(path="/create")
